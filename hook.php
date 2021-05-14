@@ -9,7 +9,7 @@
         exit;  OR
         echo $hook;
         exit;
-    In below $hook referred the name of the page is toplevel_page_theme-options
+    In below, $hook referred the name of the page is toplevel_page_theme-options
    ==============================================================================================================
    */
     if('toplevel_page_theme-options' != $hook) {
