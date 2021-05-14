@@ -48,13 +48,4 @@ jQuery(document).ready(function ($) {
 
     });
 
-    // Name, Descriptions live preview
-    $('#first-name, #last-name, #describe').on('keyup', function () {
-        var fName = $('#first-name').val();
-        var lName = $('#last-name').val();
-        var fullName = fName + ' ' + lName;
-        var describe = $('#describe').val();
-        $('#name').text(fullName);
-        $('#desc').text(describe);
-    });
 });
