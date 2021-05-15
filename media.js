@@ -41,8 +41,7 @@ jQuery(document).ready(function ($) {
 
         mediaUploader.on('select', function () {
             var attachment = mediaUploader.state().get('selection').first().toJSON();
-
-            $('#profic-preview').css('background-image', 'url(' + attachment.url + ')');
+            $('#profile_pic').val(attachment.url);
         });
         mediaUploader.open();
 
